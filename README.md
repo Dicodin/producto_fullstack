@@ -37,3 +37,5 @@ Si deseas ver el resultado de la API puedes ingresar a [localhost:5000](http://l
 Puedes abrir la aplicacion entrando a [localhost:3000](http://localhost:3000) en tu explorador.
 
 Comprueba que levantaste bien las aplicaciones.
+
+_NOTA: Faltó la parte de los contenedores_
