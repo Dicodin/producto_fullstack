@@ -39,27 +39,44 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Instrucciones
 
-### _Dentro de la Carpeta `BD` se encuentran los scripts para la creación de los objetos en Base de Datos y el archivo para llenar la tabla creada._
+* Descargar el ZIP del código por medio del botón verde `Code` y descomprimirlo en la ubicación deseada.
+
+Una vez que el software, mencionado en la sección _Requisitos_, se encuentre instalado en tu computadora:
+* Ejecutar una instancia de la versión descargada de [PostgreSQL](https://www.postgresql.org/download/) y crear los objetos de Base de Datos que están dentro de la carpeta `BD`, en el orden numérico que se muestra en el nombre de los archivos .sql (1-xxxx.sql, 2-xxxx.sql, 3-xxxx.sql).
 
 Para instalar las dependencias en el proyecto en Python:
 
+* Abrir una ventana de comandos (Símbolo de Sistema en windows por ejemplo) y navegar o ubicarse en la carpeta en donde se descomprimieron las carpetas de los proyectos.
+* Navegar o ubicarse en la carpeta del proyecto `geoPoints`.
+ 
+Ejecutar
 ```
 pip install -r requirements.txt
 ```
 
-Para nstalar las dependencias para el proyecto en React:
+Para instalar las dependencias para el proyecto en React:
 
+* Navegar o ubicarse en la carpeta del proyecto `producto_fullstack-main`.
+
+Ejecutar
 ```
 npm install
 ```
 
-Para correr las aplicaciones
+Para correr las aplicaciones:
+
+Abrir una ventana de comandos (Símbolo de Sistema en windows por ejemplo) y navegar o ubicarse en la carpeta en donde se descomprimieron las carpetas de los proyectos.
 
 Python:
+Navegar o ubicarse en la carpeta del proyecto `geoPoints`.
+Ejecutar
 ```
 flask run
 ```
+
 React:
+Navegar o ubicarse en la carpeta del proyecto `producto_fullstack-main`.
+Ejecutar
 ```
 npm start
 ```
